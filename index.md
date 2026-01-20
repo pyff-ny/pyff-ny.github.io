@@ -1,13 +1,22 @@
 ---
 layout: default
-title: IT case
+title: IT case collection and study
 ---
 
-# Debug: categories
+# IT case collection and study
 
-All categories: {{ site.categories | jsonify }}
-
-# Debug: posts
-{% for post in site.posts %}
-- title={{ post.title }} | categories={{ post.categories }} | tags={{ post.tags }} | url={{ post.url }}
+{% assign net = site.categories.network %}
+{% if net and net.size > 0 %}
+## Network
+{% for post in net %}
+- [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
+{% endif %}
+
+{% assign net = site.categories.hardware %}
+{% if net and net.size > 0 %}
+## Hardware
+{% for post in net %}
+- [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: "%Y-%m-%d" }})
+{% endfor %}
+{% endif %}
