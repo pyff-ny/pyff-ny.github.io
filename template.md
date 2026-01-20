@@ -3,15 +3,19 @@
 ---
 layout: post
 title: "Case N1 - 能 ping IP 但打不开域名（DNS）"
+date: 2026-01-20  # 可选；不写就用文件名日期
 categories:
-  - network
+  - network        # 三选一：network / hardware / os
 tags:
   - aplus-220-1201
-  - dns
   - troubleshooting
-case_id: "N1-01"
-objective: "220-1201 2.1"
+  - dns            # 按主题加：dns / dhcp / gateway / wifi / printer / storage / cpu 等
+case_id: "N1-01"   # 你自己的编号体系：N/H/O + 序号
+objective: "220-1201 2.1"   # 对应 A+ objectives（可写多个，用逗号分隔）
+severity: "P3"     # 可选：P1/P2/P3（面试展示很加分）
+status: "done"     # 可选：draft / done
 ---
+
 
 2) 首页按“考试 Domain + 四维”做信息架构（更像 Portfolio）
 你现在是 Network/Hardware
