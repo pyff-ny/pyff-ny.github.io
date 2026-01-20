@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Case H1 - 打印机故障排除"
-categories: [aplus-220-1201, Hardware]
-tags: [Printer, Troubleshooting, Objective-5-6]
+categories:
+  - hardware
+tags:
+  - aplus
+  - printer
 ---
 
 
