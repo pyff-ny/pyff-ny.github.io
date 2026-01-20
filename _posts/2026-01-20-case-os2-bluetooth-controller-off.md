@@ -39,7 +39,7 @@ status: "done"
 执行命令：
 ```bash
 system_profiler SPBluetoothDataType | head -n 30
-![Bluetooth controller status](/assets/images/bluetooth-profiler1.png)
+![Bluetooth controller status](/assets/images/bluetooth-profiler2.png)
 
 ## 结果：
 * 系统可识别蓝牙控制器 (Braodcom芯片)
