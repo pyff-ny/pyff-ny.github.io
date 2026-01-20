@@ -13,7 +13,7 @@ objective: "220-1202 (OS troubleshooting / system services)"
 severity: "P3"
 status: "done"
 ---
-
+by Jia
 ## 📌 症状（用户语言）
 - iMac 上蓝牙出现异常：菜单栏/控制中心的 Bluetooth 开关点击**没有任何反应**
 - 进入 **System Settings → Bluetooth**，开关同样**点不动**
