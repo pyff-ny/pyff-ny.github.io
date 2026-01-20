@@ -30,3 +30,9 @@ User / Process（用户描述、复现、教育交付）
 复盘（Prevent/Next time）
 A+ Objective Mapping（对应知识点）
 你已经在 Case N1 里写了 1–3，补齐 4–7 就是“可展示级”。
+
+4) 图片语法统一成 GitHub Pages 可渲染格式（你现在已经有 assets/images 目录了）
+以后都用这种写法：
+
+![scutil dns output](/assets/images/scutil-dns.png)
+
