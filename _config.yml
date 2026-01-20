@@ -1,4 +1,3 @@
-theme: jekyll-theme-minimal
-title: Jerry's homepage
-description: IT case colletion and study
-permalink: /:categories/:year/:month/:day/:title/
+url: "https://pyff-ny.github.io"
+baseurl: ""
+
