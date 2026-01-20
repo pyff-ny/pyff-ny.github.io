@@ -29,9 +29,9 @@ title: IT case collection and study
 {% endfor %}
 {% endif %}
 
-{% assign net = site.categories.users %}
+{% assign net = site.categories.user %}
 {% if net and net.size > 0 %}
-## Users
+## User/Process
 {% for post in net %}
 - [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
