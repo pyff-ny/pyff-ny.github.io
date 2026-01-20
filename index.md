@@ -20,3 +20,19 @@ title: IT case collection and study
 - [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
 {% endif %}
+
+{% assign net = site.categories.os %}
+{% if net and net.size > 0 %}
+## Operating Systems
+{% for post in net %}
+- [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: "%Y-%m-%d" }})
+{% endfor %}
+{% endif %}
+
+{% assign net = site.categories.users %}
+{% if net and net.size > 0 %}
+## Users
+{% for post in net %}
+- [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: "%Y-%m-%d" }})
+{% endfor %}
+{% endif %}
