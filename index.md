@@ -5,7 +5,12 @@ title: Jerry's homepage
 
 # IT case collection and study
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url - relative_url }}) ({{ post.date - date: "%Y-%m-%d" }})
+## Network
+{% for post in site.categories.network %}
+- [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
 
+## Hardware
+{% for post in site.categories.hardware %}
+- [{{ post.title }}]({{ post.url | relative_url }}) ({{ post.date | date: "%Y-%m-%d" }})
+{% endfor %}
