@@ -39,6 +39,7 @@ status: "done"
 执行命令：
 ```bash
 system_profiler SPBluetoothDataType | head -n 30
+```
 ![Bluetooth controller status](/assets/images/bluetooth-profiler.png)
 
 ## 观察点：
