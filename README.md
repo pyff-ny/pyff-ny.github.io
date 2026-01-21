@@ -12,6 +12,29 @@ Form hypotheses and verify with commands or settings
 Fix the issue with minimal side effects
 Document what matters for future cases
 
+📁 Case Categories
+🌐 Network Issues
+Case N1 – Can ping IP but cannot resolve domain name (DNS) — 2026-01-20
+Case N2 – DNS resolution failure with valid network connectivity — 2026-01-19
+🖥️ Hardware Troubleshooting
+Case H1 – Printer not responding: systematic hardware isolation — 2026-01-20
+💻 Operating Systems (macOS / Linux)
+Case OS2 – iMac Bluetooth toggle unresponsive (controller off) — 2026-01-20
+Case OS1 – Backup automation with rsync over SSH — 2026-01-19
+👤 User / Workflow Issues
+Case U1 – Finder sorting confusion: state vs action mismatch — 2026-01-19
+
+🧰 Tools & Skills Used (Secondary)
+Command line diagnostics (ping, traceroute, scutil, rsync, ssh)
+macOS system settings and logs
+Basic networking concepts (DNS, gateway, subnet)
+Documentation and case logging
+
+🎯 Why This Repository Exists
+I am preparing for entry-level IT support roles (L1/L2),
+where reliability, clear communication, and repeatable troubleshooting matter more than flashy solutions.
+This repository reflects how I think and work in real support scenarios
+
 目标岗位（IT Support / Helpdesk / Desktop Support）
 我的排障方法论（SOP）
 我的展示：#Case 清单（6–10个
