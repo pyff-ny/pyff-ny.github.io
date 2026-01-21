@@ -1,3 +1,17 @@
+About This Repository
+This repository is a collection of real-world IT support cases I encountered while studying and practicing IT fundamentals.
+Each case follows a consistent troubleshooting approach:
+symptom → hypothesis → verification → resolution → takeaway.
+The focus is on reliability, clarity, and repeatability, rather than tools or buzzwords.
+
+🧠 How I Approach IT Problems
+I use a simple and practical framework in daily troubleshooting:
+Observe the symptom from the user’s perspective
+Narrow down the layer (User / OS / Hardware / Network)
+Form hypotheses and verify with commands or settings
+Fix the issue with minimal side effects
+Document what matters for future cases
+
 目标岗位（IT Support / Helpdesk / Desktop Support）
 我的排障方法论（SOP）
 我的展示：#Case 清单（6–10个
